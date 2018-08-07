@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "archiver": "^2.1.1",
     "busboy": "^0.2.14",
     "canvas": "^1.6.11",
-    "image-clipper": "^0.4.3"
+    "cheerio": "^1.0.0-rc.2",
+    "image-clipper": "^0.4.3",
+    "image-size": "^0.6.3"
   }
 }
