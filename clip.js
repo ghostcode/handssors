@@ -26,6 +26,7 @@ function clip(path){
         function task(i){
             return new Promise((resolve,reject)=>{
                 that.crop(0,itemHeight*i,dimensions.width,itemHeight)
+                .quality(100)
                 .toFile(`./dist/images/${i}.jpg`,()=>{
                     that.reset()
                     resolve(i)
